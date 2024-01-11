@@ -13,7 +13,7 @@ public class Server {
         Socket s;
 
         try {
-            ServerSocket serverSocket = new ServerSocket(2158);
+            ServerSocket serverSocket = new ServerSocket(2121);
 
             while (true) {
                 s = serverSocket.accept();
