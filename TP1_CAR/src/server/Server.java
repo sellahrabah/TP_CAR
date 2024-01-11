@@ -36,11 +36,9 @@ public class Server {
                 String motDePasse = in.readLine();
                 out.write("331 User login \r\n".getBytes());
                 System.out.println("Client a envoyé le mot de passe : " + motDePasse);
-                String nom1 = in.readLine();
-                if (nom1.equalsIgnoreCase("quit")) {
-                    System.out.println("Le client a demandé la fermeture de la connexion.");
-                    s.close();
-                }
+                
+                
+               s.close();
 
                 
                 
