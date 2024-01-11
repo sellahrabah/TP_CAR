@@ -39,7 +39,7 @@ public class Server {
                 
                 
                s.close();
-
+               System.out.println("quit");
                 
                 
             }
